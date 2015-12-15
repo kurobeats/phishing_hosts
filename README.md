@@ -1,7 +1,7 @@
 # Phishing site hosts generator
 A host file generated from updated phishing site feeds.
 
-This isn't for everyone, it's aimed at the vulnerable (Your parents, granparents, disabled, etc) who might fall victim to phishing emails.
+This isn't for everyone, it's aimed at the vulnerable (Your parents, grandparents, disabled, etc) who might fall victim to phishing emails.
 
 The hosts file is updated daily and will be happy to increase that if anyone raises concern.
 
