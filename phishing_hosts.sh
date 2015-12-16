@@ -6,7 +6,7 @@ wget -i feeds
 grep -a url ./xmlphishing.php | grep -v "?" > cleanmx.txt
 rm ./xmlphishing.php
 
-echo -e "127.0.0.1    localhost.localdomain localhost" > hosts
+echo "127.0.0.1    localhost.localdomain localhost" > hosts
 
 cat ./*.csv ./*.txt | grep -v phish > temp_file
 cat temp_file | cut -d "/" -f3 | sort -u >> hosts
