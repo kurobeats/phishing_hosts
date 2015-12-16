@@ -2,6 +2,10 @@
 
 wget -i feeds
 
+#Cleanmx needs a bit of handling
+grep -a url ./xmlphishing.php | grep -v "?" > cleanmx.txt
+rm ./xmlphishing.php
+
 echo -e "127.0.0.1    localhost.localdomain localhost" > hosts
 
 cat ./*.csv ./*.txt | grep -v phish > temp_file
